@@ -1,0 +1,49 @@
+{
+  "name": "rh-fe-exercise",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.5",
+    "@testing-library/user-event": "^12.6.3",
+    "animate.css": "^4.1.1",
+    "mobx": "^6.1.4",
+    "mobx-react": "^7.1.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-feather": "^2.0.9",
+    "react-scripts": "4.0.1",
+    "styled-components": "^5.2.1",
+    "uuid": "^8.3.2",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "start-storybook -p 6006 -s public"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^6.1.16",
+    "@storybook/addon-essentials": "^6.1.20",
+    "@storybook/addon-links": "^6.1.16",
+    "@storybook/node-logger": "^6.1.16",
+    "@storybook/preset-create-react-app": "^3.1.5",
+    "@storybook/react": "^6.1.20"
+  }
+}
